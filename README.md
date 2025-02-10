@@ -186,8 +186,8 @@ https://github.com/user-attachments/assets/e56acdad-c6cd-486a-aa33-d1f1bf13c2d2
         root.mainloop()
         ```
         
-        <!-- 주석 -->
-        <!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
-        <!-- ![py001](./image/py001.png) -->
+    <!-- 주석 -->
+    <!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
+    <!-- ![py001](./image/py001.png) -->
         
-        <img src="./image/py001.png" width="400">
+    <img src="./image/py001.png" width="400">
