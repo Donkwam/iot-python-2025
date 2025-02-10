@@ -142,6 +142,10 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
 
             
 
+https://github.com/user-attachments/assets/e56acdad-c6cd-486a-aa33-d1f1bf13c2d2
+
+
+
         - 챗GPT 윈도우앱(tkinter) 만들기
 
     - 주피터 노트북 학습
