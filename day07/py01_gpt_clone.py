@@ -56,7 +56,7 @@ root.title('제미나이 챗봇')
 root.geometry('730x450')
 # 12. 아이콘 변경
 # ./image/ 경로는 삭제
-root.iconbitmap('./day07/chatbot.ico')  # pyinstaller때는 실행파일폴더에 icon복사
+root.iconbitmap('chatbot.ico')  # pyinstaller때는 실행파일폴더에 icon복사
 
 # 7. 전체에서 사용할 폰트 지정 -> 나눔고딕
 myFont = Font(family='NanumGothic', size=10)
