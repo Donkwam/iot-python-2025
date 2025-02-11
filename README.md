@@ -140,8 +140,8 @@ IoT 개발자 기초 프로그래밍 언어 리포지토리
             - 예외 처리 : 입력시 바로 엔터, 입력시 4개의 아이템을 입력하지 않으면, 
             - 화면편집 : 검색이나 출력시 데이터 수 표시
 
-https://github.com/user-attachments/assets/e56acdad-c6cd-486a-aa33-d1f1bf13c2d2
-
+        ttps://github.com/user-attachments/assets/e56acdad-c6cd-486a-aa33-d1f1bf13c2d2
+        
         - 챗GPT 윈도우앱(tkinter) 만들기
 - 파이썬 응용
     - 주피터 노트북 기본사용법
@@ -199,10 +199,12 @@ https://github.com/user-attachments/assets/e56acdad-c6cd-486a-aa33-d1f1bf13c2d2
     - 실습
         - 제미나이 챗앱 -> **클래스형태로** 변경
 
+- 파이썬 응용
     - 실행파일 만들기
         - `pyinstaller` 모듈 설치
-        - > pip install pyinstaller
-        - > pyinstaller --onefile python_file.py
-        - 같이 실행되는 터미널을 제거하려면
-        - > pyinstaller --onefile --noconsole 파이썬파일명
-        - 아이콘등의 리소스를 dist 폴더에 복사해야
+            -  pip install pyinstaller
+        - 실행파일 명령어(터미널에 실행)
+            -  pyinstaller --onefile python_file.py
+            - 같이 실행되는 터미널을 제거하려면
+            -  pyinstaller --onefile --noconsole 파이썬파일명
+            - 아이콘등의 리소스를 dist 폴더에 복사해야
