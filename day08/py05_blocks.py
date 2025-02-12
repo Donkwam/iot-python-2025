@@ -122,7 +122,7 @@ def main():
                 Surface.blit(M_FAIL, ((SCREEN_WIDTH / 2) - (240 / 2),
                                          (SCREEN_HEIGHT / 2) - (50 / 2)))
                 is_game_star = False  # 게임 종료 후 재시작은 나중에 다시!!
-                BALL = Block((200,200,0), Rect(375,650,20,20), 10)  # 공을 새로 생성
+                BALL = Block((200,200,0), Rect(375,650,20,20), 10)  # 공을 새로 생성 
 
             BALL.draw_E()
             PADDLE.draw_R() 
