@@ -20,7 +20,7 @@ class window(Tk):
         self.protocol('WM_DELETE_WINDOW', self.onClosing)
 
         self.initWindow()   # 윈도우 화면 초기화 멤버함수(메서드)
-
+    
     def initWindow(self):
         self.myFont = Font(family='NanumGothic', size=10)
         self.boldFont = Font(family='NanumGothic', size=10, weight=BOLD, slant=ITALIC)
