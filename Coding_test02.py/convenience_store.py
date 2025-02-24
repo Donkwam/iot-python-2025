@@ -42,23 +42,23 @@ for name in sellAry[0:]:
 
     current = root
     while True:
-        if name == current.data:
+        if name == current.data:    # 판매되었으면 넘어감
             break
-        if name < current.data:
+        if name < current.data:   # 비교할 값이 크면 실행
             if current.left == None:
                 current.left = node
-                memory.append(node)
+                memory.append(node) # 판매되지 않은 것들을 메모리에 추가
                 break
             current = current.left
-        else:
+        else:   # 비교할 값이 작거나 그외 실행
             if current.right == None:
                 current.right = node
-                memory.append(node)
+                memory.append(node) # 판매되지 않은 것들을 메모리에 추가
                 break
             current = current.right
 print('이진 탐색 트리 구성 완료!')
 
-def preorder(node):
+def preorder(node): # 중복이 인제 아닌지 확인후 
     if node == None:
         return
     print(node.data,end=' ')
