@@ -1,3 +1,4 @@
+# 4번
 count = 0
 def binSearch(ary, fData):
     global count

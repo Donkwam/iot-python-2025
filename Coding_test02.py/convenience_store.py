@@ -13,7 +13,19 @@ memory = []
 root = None
 dataAry =[ '콘말차', '삿포로 맥주', '아카페라 벤티 헤이즐넛', '레어치즈푸딩', '척오리지널 메가 사워', '요아정 요거트컵', 
           '페퍼로니피자주먹밥', '널담 슈톨렌', '딸기마시멜로케이크', '버니공쥬 딸기뚱카롱', '고추잡채호빵', '체다 슈크림붕어스낵' ]
-sellAry = [random.choice(dataAry) for _ in range(20)]
+sellAry = []
+
+print("밑에 메뉴를 보고 상품을 입력하세요. ")
+print(f'상품종류 {dataAry}')
+while True:
+    select = input('삽입(I)/종료(Q)').upper()   # i입력시 menu에 값이 입력해야 되고 q를 눌리면 코드가 끝난다. 
+    if select == 'I':
+        menu = input("상품명: ")
+    if select == 'Q':
+        break
+    sellAry.append(menu)
+
+sellAry = [random.choice(sellAry) for _ in range(5)] # 20개를 메뉴중에 아무거나 뽑는다.
 
 print('오늘 판매된 물건(중복O) --> ', sellAry)
 
@@ -23,7 +35,7 @@ node.data = sellAry[0]
 root = node
 memory.append(node)
 
-for name in sellAry[1:]:
+for name in sellAry[0:]:
 
     node = TreeNode()
     node.data = name
